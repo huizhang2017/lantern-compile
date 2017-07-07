@@ -41,8 +41,8 @@ $ make darwin
 编译的时候回出现以下错误
 ![编译是错误图片](http://ogpq2zwg5.bkt.clouddn.com/WechatIMG7.jpeg)
 根据错误信息指出的路径在lantern文件夹中找到对应的文件及行数
-1 只需要把*MaxIdleTime*改为*IdleConnTimeout"
-2 然后把下面紧接的调用*EnforceMaxIdleTime()*这个方法的语句注释掉
+* 只需要把*MaxIdleTime*改为*IdleConnTimeout"
+* 然后把下面紧接的调用*EnforceMaxIdleTime()*这个方法的语句注释掉
 
 就改这两个文件中的4行就行,重新编译
 ~~~
